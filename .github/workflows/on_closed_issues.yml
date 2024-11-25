@@ -21,7 +21,7 @@ jobs:
     permissions:
       issues: write  # comment on issues
     steps:
-      - uses: aws-powertools/actions/.github/actions/close-issue-message@main
+      - uses: dreamorosi/batchs3/.github/actions/close-issue-message@main
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           message: |
